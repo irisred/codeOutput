@@ -1,0 +1,14 @@
+{
+    "algorithm_name": "CharmKGW",
+    "gamma": 0.5,
+    "delta": 10.0,
+    "prefix_length": 1,
+    "z_threshold": 2.45,
+    "f_scheme": "time",
+    "window_scheme": "left",
+    "hash_key":"28384181",
+    "first_byte_weight": 1.0,
+    "other_byte_weight": 0.0,
+    "h_low": 0.2,
+    "first_byte_only_bias": true
+}

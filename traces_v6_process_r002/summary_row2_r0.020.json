@@ -1,0 +1,12 @@
+{
+  "row_idx": 2,
+  "attack_ratio": 0.02,
+  "seed_window_chars": 18,
+  "n_bytes": 3,
+  "clean_tokens": 157,
+  "attacked_tokens": 177,
+  "extra_token_count_in_traced": 20,
+  "traced_tokens": 147,
+  "tail_match_rate_over_traced": 0.6530612244897959,
+  "green_flip_rate_uid_cleanfp_vs_attackfp": 0.14285714285714285
+}

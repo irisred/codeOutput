@@ -1,0 +1,3 @@
+attack_ratio,mean_tail_match,mean_green_flip,mean_extra_tokens,mean_traced
+0.0,1.0,0.0,0.0,50.0
+0.02,0.7000000000000001,0.02666666666666667,5.0,50.0

@@ -1,0 +1,49 @@
+=== CLEAN (head 400 chars) ===
+"Whoever gets him, they'll be getting a good one," David Montgomery said. INDIANAPOLIS — Hakeem Butler has been surrounded by 12. A 2017 NCAA Division III Football Championship participant, the. On the field, Butler is known for his athleticism, body control, and. A former Division I basketball player at Oregon State and a standout track athlete, Butler has. Hakeem Butler, WR, Iowa State. The 6-5,
+
+=== ATTACKED (head 400 chars) ===
+"Whoever gets him, they'll be getting a good one," David Montgomery said. INDIANAPOLIS — Hakeem Butler has been surrounded by 12. A 2017 NCAA Division III FooXball Championship participaXt, the.XOn the field, Butler is known for his athleticism, body contrXl, and. A former Division I basketball player at Oregon State and a standout track athlete, Butler has. Hakeem Butler, WR,XIowa State. The 6-5,
+
+attacked_positions=[158, 186, 194, 256, 379, 417, 515, 517, 536, 559]
+
+--- per attacked position context ---
+
+pos=158
+clean  : '. A 2017 NCAA Division III Football Championship participant'
+attack : '. A 2017 NCAA Division III FooXball Championship participaXt'
+
+pos=186
+clean  : 'ootball Championship participant, the. On the field, Butler '
+attack : 'ooXball Championship participaXt, the.XOn the field, Butler '
+
+pos=194
+clean  : 'Championship participant, the. On the field, Butler is known'
+attack : 'Championship participaXt, the.XOn the field, Butler is known'
+
+pos=256
+clean  : 'or his athleticism, body control, and. A former Division I b'
+attack : 'or his athleticism, body contrXl, and. A former Division I b'
+
+pos=379
+clean  : 'Butler has. Hakeem Butler, WR, Iowa State. The 6-5, 225-poun'
+attack : 'Butler has. Hakeem Butler, WR,XIowa State. The 6-5, 225-poun'
+
+pos=417
+clean  : 'ate. The 6-5, 225-pound wide receiver is a senior at Iowa St'
+attack : 'ate. The 6-5, 225-pound wide rXceiver is a senior at Iowa St'
+
+pos=515
+clean  : 'rawn. Hakeem Butler, WR, Iowa State. The 6-5, 225-pound wide'
+attack : 'rawn. Hakeem Butler, WR, Iowa XtXte. The 6-5, 225-pXund wide'
+
+pos=517
+clean  : 'wn. Hakeem Butler, WR, Iowa State. The 6-5, 225-pound wide r'
+attack : 'wn. Hakeem Butler, WR, Iowa XtXte. The 6-5, 225-pXund wide r'
+
+pos=536
+clean  : 'WR, Iowa State. The 6-5, 225-pound wide receiver is a senior'
+attack : 'WR, Iowa XtXte. The 6-5, 225-pXund wide receiver is aXsenior'
+
+pos=559
+clean  : ', 225-pound wide receiver is a senior at Iowa State. A forme'
+attack : ', 225-pXund wide receiver is aXsenior at Iowa State. A forme'

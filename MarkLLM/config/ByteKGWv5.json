@@ -1,0 +1,26 @@
+{
+  "algorithm_name": "ByteKGWv5",
+  "gamma": 0.5,
+  "delta": 1.0,
+  "hash_key": 15485863,
+  "prefix_length": 4,
+  "z_threshold": 4.0,
+
+  "scheme": "byte_tree",
+  "add_special_tokens": true,
+
+  "max_byte_pos": 1,
+  "use_prefix_bytes_in_prf": true,
+
+  "use_cache": true,
+  "use_torch_generator": true,
+
+  "gen": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 50,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 128
+  }
+}

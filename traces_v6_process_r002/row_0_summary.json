@@ -1,0 +1,30 @@
+{
+  "total_attacked_tokens_traced": 177,
+  "extra_tokens_no_clean_counterpart": 17,
+  "extra_token_rate": 0.096045197740113,
+  "aligned_tokens": 160,
+  "aligned_same_uid_tokens": 151,
+  "flip_rate_same_uid": 0.09271523178807947,
+  "flip_rate_same_uid_tail_unchanged": 0.0,
+  "flip_rate_same_uid_tail_changed": 0.3333333333333333,
+  "tail_changed_rate_aligned": 0.26875,
+  "row_index": 0,
+  "attack_ratio": 0.02,
+  "seed_window_chars": 18,
+  "n_bytes": 3,
+  "attacked_char_positions_head": [
+    163,
+    345,
+    387,
+    432,
+    488,
+    516,
+    536,
+    552,
+    610,
+    619,
+    645
+  ],
+  "clean_tokens_traced": 161,
+  "attacked_tokens_traced": 177
+}

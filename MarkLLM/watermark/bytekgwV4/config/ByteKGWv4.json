@@ -1,0 +1,12 @@
+{
+  "algorithm_name": "ByteKGWv4",
+  "gamma": 0.5,
+  "delta": 1.0,
+  "hash_key": 15485863,
+  "prefix_length": 4,
+  "z_threshold": 4.0,
+
+  "ignore_invalid_firstbyte": true,
+  "max_scan_iters": 32,
+  "device": "cuda:0"
+}

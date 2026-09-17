@@ -1,0 +1,23 @@
+{
+  "row_idx": 2,
+  "attack_ratio": 0.02,
+  "attack_seed_used": 2,
+  "replace_char": "X",
+  "full_startswith_prompt": true,
+  "prompt_len_chars": 105,
+  "full_len_chars": 689,
+  "n_attacked_chars": 11,
+  "attacked_char_positions_head": [
+    141,
+    162,
+    191,
+    198,
+    267,
+    278,
+    322,
+    362,
+    420,
+    474,
+    546
+  ]
+}

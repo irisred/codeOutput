@@ -1,0 +1,21 @@
+{
+  "algorithm_name": "ByteKGWv6",
+  "hash_key": 15485863,
+  "delta": 3.0,
+
+  "n_bytes": 3,
+  "seed_window_chars": 18,
+
+  "m_bits": 256,
+  "target_anchors": 96,
+
+  "k_choices": [1, 2, 3, 4, 5, 6],
+  "k_weight_mode": "linear",
+  "decision_margin_bits": 12,
+
+  "normalize_whitespace": true,
+  "add_special_tokens": true,
+
+  "z_threshold": 4.0,
+  "min_tokens": 0
+}

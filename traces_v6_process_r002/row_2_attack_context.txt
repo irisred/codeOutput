@@ -1,0 +1,57 @@
+=== CLEAN (head 400 chars) ===
+8i announced today it has launched a web player, the 8i Portal, for its volumetric 3D video of people in 3D space.
+The 8i Portal is a web-based platform that allows developers to easily integrate 8i’s volumetric video into websites, social media platforms, and mobile apps.
+8i, Inc. is a pioneering AI-powered augmented reality (AR) company that focuses on creating high-quality, immersive AR experie
+
+=== ATTACKED (head 400 chars) ===
+8i announced today it has launched a web player, the 8i Portal, for its volumetric 3D video of people in 3D space.
+The 8i Portal is a web-basXd platform that alloXs developers to easily integXate 8iXs volumetric video into websites, social media platforms, and mobileXapps.
+8i, Xnc. is a pioneering AI-powered augmented reXlity (AR) company that focuses on creatXng high-quality, immersive AR experie
+
+attacked_positions=[141, 162, 191, 198, 267, 278, 322, 362, 420, 474, 546]
+
+--- per attacked position context ---
+
+pos=141
+clean  : 'ce.\nThe 8i Portal is a web-based platform that allows develo'
+attack : 'ce.\nThe 8i Portal is a web-basXd platform that alloXs develo'
+
+pos=162
+clean  : 'a web-based platform that allows developers to easily integr'
+attack : 'a web-basXd platform that alloXs developers to easily integX'
+
+pos=191
+clean  : 'ows developers to easily integrate 8i’s volumetric video int'
+attack : 'oXs developers to easily integXate 8iXs volumetric video int'
+
+pos=198
+clean  : 'elopers to easily integrate 8i’s volumetric video into websi'
+attack : 'elopers to easily integXate 8iXs volumetric video into websi'
+
+pos=267
+clean  : 'al media platforms, and mobile apps.\n8i, Inc. is a pioneerin'
+attack : 'al media platforms, and mobileXapps.\n8i, Xnc. is a pioneerin'
+
+pos=278
+clean  : 'atforms, and mobile apps.\n8i, Inc. is a pioneering AI-powere'
+attack : 'atforms, and mobileXapps.\n8i, Xnc. is a pioneering AI-powere'
+
+pos=322
+clean  : 'eering AI-powered augmented reality (AR) company that focuse'
+attack : 'eering AI-powered augmented reXlity (AR) company that focuse'
+
+pos=362
+clean  : ' company that focuses on creating high-quality, immersive AR'
+attack : ' company that focuses on creatXng high-quality, immersive AR'
+
+pos=420
+clean  : 'AR experiences using its proprietary 8i Capture technology.\n'
+attack : 'AR experiences using its proprXetary 8i Capture technology.\n'
+
+pos=474
+clean  : 'logy.\n“ We believe that volumetric video will be a game-chan'
+attack : 'logy.\n“ We believe that volumeXric video will be a game-chan'
+
+pos=546
+clean  : 'nd virtual reality, and the launch of our web player is a ma'
+attack : 'nd virtual reality, and the laXnch of our web player is a ma'

@@ -1,0 +1,7 @@
+row_idx,attack_ratio,seed_window_chars,n_bytes,clean_tokens,attacked_tokens,extra_token_count_in_traced,traced_tokens,tail_match_rate_over_traced,green_flip_rate_uid_cleanfp_vs_attackfp
+0,0.0,18,3,161,161,0,50,1.0,0.0
+1,0.0,18,3,158,158,0,50,1.0,0.0
+2,0.0,18,3,157,157,0,50,1.0,0.0
+0,0.02,18,3,161,182,3,50,0.9,0.0
+1,0.02,18,3,158,172,6,50,0.52,0.04
+2,0.02,18,3,157,182,6,50,0.68,0.04

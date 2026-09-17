@@ -1,0 +1,1438 @@
+{
+  "model": "../Meta-Llama-3-8B-Instruct",
+  "devices": [
+    "cuda:0",
+    "cuda:1"
+  ],
+  "dtype": "float16",
+  "bytekgw_config": "config/ByteKGWv5.json",
+  "c4_paths": [
+    "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz"
+  ],
+  "n_prompts": 200,
+  "prompt_words": 20,
+  "add_special_tokens": true,
+  "emit_hf_baseline": true,
+  "gen": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 50,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 128
+  },
+  "seed_base": 1234,
+  "deltas": [
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "bytekgw_scheme": "byte_tree",
+  "bytekgw_all_max_byte_pos": 64,
+  "use_prefix_bytes_in_prf": true,
+  "cap_cont_tokens_for_eval": true,
+  "prompts": [
+    {
+      "prompt_id": 0,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 0,
+      "prompt_text": "After the martyrdom of St. Boniface, Vergilius was made Bishop of Salzburg (766 or 767) and laboured successfully for the ",
+      "source_head": "After the martyrdom of St. Boniface, Vergilius was made Bishop of Salzburg (766 or 767) and laboured successfully for the upbuilding of his diocese as well as for the spread of the Faith in neighbouring heathen countries, especially in Cari"
+    },
+    {
+      "prompt_id": 1,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 1,
+      "prompt_text": "\"Whoever gets him, they'll be getting a good one,\" David Montgomery said. INDIANAPOLIS — Hakeem Butler has been surrounded by ",
+      "source_head": "\"Whoever gets him, they'll be getting a good one,\" David Montgomery said. INDIANAPOLIS — Hakeem Butler has been surrounded by some of the best wide receivers on the planet this week at the NFL Scouting Combine. It’s an experience that might"
+    },
+    {
+      "prompt_id": 2,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 2,
+      "prompt_text": "8i announced today it has launched a web player, the 8i Portal, for its volumetric 3D video of people in ",
+      "source_head": "8i announced today it has launched a web player, the 8i Portal, for its volumetric 3D video of people in virtual reality. Using 8i’s technology and VR goggles, you’ll be able to walk around a person inside a virtual environment to see their"
+    },
+    {
+      "prompt_id": 3,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 3,
+      "prompt_text": "The Arlington County Board plans to vote Saturday afternoon on giving Amazon $23 million and other incentives to build a ",
+      "source_head": "The Arlington County Board plans to vote Saturday afternoon on giving Amazon $23 million and other incentives to build a headquarters campus in Crystal City, but only after hearing scores of northern Virginia residents and advocates testify"
+    },
+    {
+      "prompt_id": 4,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 4,
+      "prompt_text": "Karl Kispert, principal of cyber and information security, has more than 28 years of experience in selling, managing and delivering ",
+      "source_head": "Karl Kispert, principal of cyber and information security, has more than 28 years of experience in selling, managing and delivering information risk management, internal audit, regulatory and compliance programs, and information security an"
+    },
+    {
+      "prompt_id": 5,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 5,
+      "prompt_text": "The Hawaii man who was fired after issuing the false ballistic missile alert in mid-January told reporters Friday that he ",
+      "source_head": "The Hawaii man who was fired after issuing the false ballistic missile alert in mid-January told reporters Friday that he was very upset over the incident but remained adamant that it appeared, at the time, to be a real-life attack. The for"
+    },
+    {
+      "prompt_id": 6,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 6,
+      "prompt_text": "Shania Twain expected to break the charts with new album NOW! Even after a 15-year hiatus, she’s still the one! ",
+      "source_head": "Shania Twain expected to break the charts with new album NOW! Even after a 15-year hiatus, she’s still the one! Shania Twain is on pace to top the charts with her new album NOW. The 16-song LP was released on Sept. 29 and is set to shoot pa"
+    },
+    {
+      "prompt_id": 7,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 7,
+      "prompt_text": "A version of this article appeared in the print edition of The Daily Star on July 12, 2018, on page ",
+      "source_head": "A version of this article appeared in the print edition of The Daily Star on July 12, 2018, on page 16. Assembled by Palestinian artist Said Baalbaki, the exhibition presents 50 of Abbo's sketches, etchings and object, as well as texts – al"
+    },
+    {
+      "prompt_id": 8,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 8,
+      "prompt_text": "A blind man in his 60s is searching for the young man who pulled him back from an approaching train ",
+      "source_head": "A blind man in his 60s is searching for the young man who pulled him back from an approaching train and saved his life last Thursday, Nov. 9. Mike Wyatt stood at the stairs to the Peoria train station in Aurora, Colorado, on Monday, looking"
+    },
+    {
+      "prompt_id": 9,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 9,
+      "prompt_text": "After Kevin’s horrific leg injury, everyone is asking: will he ever play basketball again? Dr. Glashow, co-chief of sports medicine ",
+      "source_head": "After Kevin’s horrific leg injury, everyone is asking: will he ever play basketball again? Dr. Glashow, co-chief of sports medicine at Mount Sinai Medical Center, tells HollywoodLife.com exclusively if Kevin will ever be back on the court. "
+    },
+    {
+      "prompt_id": 10,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 10,
+      "prompt_text": "This month some important Walmart news did not get the attention it deserved. The news wasn't some flashy announcement about ",
+      "source_head": "This month some important Walmart news did not get the attention it deserved. The news wasn't some flashy announcement about virtual reality or about some new service for busy Manhattanites. It was something much more subtle and much more s"
+    },
+    {
+      "prompt_id": 11,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 11,
+      "prompt_text": "University of Utah track and field athlete Lauren McCluskey was found shot dead Monday night in the backseat of a ",
+      "source_head": "University of Utah track and field athlete Lauren McCluskey was found shot dead Monday night in the backseat of a vehicle outside a campus dormitory, according to university police. The suspected shooter was 37-year-old Melvin Rowland, a ma"
+    },
+    {
+      "prompt_id": 12,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 12,
+      "prompt_text": "The Linux kernel now includes everything that is needed to use 3D acceleration with all GeForce graphics chips. Drivers have ",
+      "source_head": "The Linux kernel now includes everything that is needed to use 3D acceleration with all GeForce graphics chips. Drivers have also been added for a Wireless Gigabit chip and a PCIe WLAN chip from Realtek. In his email announcing the release "
+    },
+    {
+      "prompt_id": 13,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 13,
+      "prompt_text": "The location of the July 15, 2002 flare is shown at left. The other panels compare the scale of Earth ",
+      "source_head": "The location of the July 15, 2002 flare is shown at left. The other panels compare the scale of Earth to the eruptions. Red shows superheated gas held together by magnetic fields. The time sequence lasts only 80 seconds and yet reveals trem"
+    },
+    {
+      "prompt_id": 14,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 14,
+      "prompt_text": "Last summer I took a cross-country road trip with a group of people driving different types of electric vehicles. It ",
+      "source_head": "Last summer I took a cross-country road trip with a group of people driving different types of electric vehicles. It was an amazing experience, and our trip, our adventures, and our misadventures were portrayed in the documentary Kick Gas. "
+    },
+    {
+      "prompt_id": 15,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 15,
+      "prompt_text": "Larry checks in with KPCC reporter Sharon McNary, who’s been hitting up several polling stations in Orange County and Los ",
+      "source_head": "Larry checks in with KPCC reporter Sharon McNary, who’s been hitting up several polling stations in Orange County and Los Angeles County, as well as Registrar of Voters for O.C. and L.A. After being a finalist for LAPD chief in 2009 only to"
+    },
+    {
+      "prompt_id": 16,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 16,
+      "prompt_text": "According to Variety, one of the movies about the 1973 tennis match between Billie Jean King and Bobby Riggs is ",
+      "source_head": "According to Variety, one of the movies about the 1973 tennis match between Billie Jean King and Bobby Riggs is recasting one of its leads. No, not the serious one that HBO is doing with Elizabeth Banks and Paul Giamatti, and not the overtl"
+    },
+    {
+      "prompt_id": 17,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 17,
+      "prompt_text": "Health authorities in New Zealand said that about 200 passengers on the Dawn Princess ship became infected with the norovirus. ",
+      "source_head": "Health authorities in New Zealand said that about 200 passengers on the Dawn Princess ship became infected with the norovirus. The ship was scheduled to leave for Australia on Monday. The last time there was a norovirus outbreak on the ship"
+    },
+    {
+      "prompt_id": 18,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 18,
+      "prompt_text": "Politico, which broke the PR story, reports, “The group circulated a memo to reporters and producers late Monday that discouraged ",
+      "source_head": "Politico, which broke the PR story, reports, “The group circulated a memo to reporters and producers late Monday that discouraged them from airing the undercover videos, arguing that they were obtained under false identification and violate"
+    },
+    {
+      "prompt_id": 19,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 19,
+      "prompt_text": "NEW YORK (AP) — Could the U.S. lose its top credit rating even if a deal is reached to raise ",
+      "source_head": "NEW YORK (AP) — Could the U.S. lose its top credit rating even if a deal is reached to raise the debt limit? Market analysts and investors increasingly say yes. The outcome won't be quite as scary as a default, but financial markets would s"
+    },
+    {
+      "prompt_id": 20,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 20,
+      "prompt_text": "MAMADOU SAKHO remains unavailable for selection for Liverpool's Europa League semi-final first leg clash with Villarreal in Spain on Thursday ",
+      "source_head": "MAMADOU SAKHO remains unavailable for selection for Liverpool's Europa League semi-final first leg clash with Villarreal in Spain on Thursday (8.05pm). The defender will not be considered for selection while he is being investigated after a"
+    },
+    {
+      "prompt_id": 21,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 21,
+      "prompt_text": "IHS Markit INFO, -0.02% a world leader in critical information, analytics and solutions, expanded its alternative data offering for asset ",
+      "source_head": "IHS Markit INFO, -0.02% a world leader in critical information, analytics and solutions, expanded its alternative data offering for asset managers with the launch of new stock selection and strategy signals covering the automotive sector. C"
+    },
+    {
+      "prompt_id": 22,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 22,
+      "prompt_text": "MK Moshe Feiglin in a Knesset committee meeting, next to MK Ahmad Tibi, in 2014. It appears Feiglin is on ",
+      "source_head": "MK Moshe Feiglin in a Knesset committee meeting, next to MK Ahmad Tibi, in 2014. It appears Feiglin is on his way back to the Knesset, while Tibi just sank below the threshold minimum vote. An Israel Hayom poll published Friday morning show"
+    },
+    {
+      "prompt_id": 23,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 23,
+      "prompt_text": "SOUND FORGE Audio Cleaning Lab can be used to record any sound you can hear on your computer - from ",
+      "source_head": "SOUND FORGE Audio Cleaning Lab can be used to record any sound you can hear on your computer - from internet radio to LPs and tapes which have been connected to the sound card. When recording older material, particularly when it has been st"
+    },
+    {
+      "prompt_id": 24,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 24,
+      "prompt_text": "What’s the news? A couple of weeks ago, Instagram promised you’d be able to download your data from its servers. ",
+      "source_head": "What’s the news? A couple of weeks ago, Instagram promised you’d be able to download your data from its servers. It’s now rolled out that feature, as first reported by TechCrunch. It includes photos, videos, comments, profile information an"
+    },
+    {
+      "prompt_id": 25,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 25,
+      "prompt_text": "President Donald Trump returned to Washington, DC on Monday for a very important event. It was not for a meeting ",
+      "source_head": "President Donald Trump returned to Washington, DC on Monday for a very important event. It was not for a meeting with an international leader. And it was not for a joint session of Congress. No, on this day, Trump greeted thousands of child"
+    },
+    {
+      "prompt_id": 26,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 26,
+      "prompt_text": "So you might ask yourself, “What is going on?” How can things be so bad that educators feel the need ",
+      "source_head": "So you might ask yourself, “What is going on?” How can things be so bad that educators feel the need to petition? Superintendent Michael Hanson’s administration issued a mandate to all school principals, vice principals and counselors to lo"
+    },
+    {
+      "prompt_id": 27,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 27,
+      "prompt_text": "ST. JOHNS COUNTY, Fla. - Commissioners in St. Johns County voted unanimously to postpone any legislative action against a localized ",
+      "source_head": "ST. JOHNS COUNTY, Fla. - Commissioners in St. Johns County voted unanimously to postpone any legislative action against a localized ban of a substance that the DEA has classified as a \"drug of concern.\" According to a report by the St. Augu"
+    },
+    {
+      "prompt_id": 28,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 28,
+      "prompt_text": "Come test your luck on the best slot machine app in the app store. Great graphics make this app so ",
+      "source_head": "Come test your luck on the best slot machine app in the app store. Great graphics make this app so fun to play. Test your luck with Pharaoh Slots! Bet, Spin and Get Lucky!"
+    },
+    {
+      "prompt_id": 29,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 29,
+      "prompt_text": "This was Reinsdorf's reply on Friday when asked whether the preseason announcement that Phil Jackson will not return as coach ",
+      "source_head": "This was Reinsdorf's reply on Friday when asked whether the preseason announcement that Phil Jackson will not return as coach of the Bulls next season is, as the French saying goes, a fact accomplished. And the notation on the desk of Reins"
+    },
+    {
+      "prompt_id": 30,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 30,
+      "prompt_text": "(HOST) As the season for summer blockbuster movies about super heroes and rings of power approaches, commentator Willem Lange is ",
+      "source_head": "(HOST) As the season for summer blockbuster movies about super heroes and rings of power approaches, commentator Willem Lange is feeling nostalgic for other mighty champions of yesteryear. early western United States. Nowhere in the pages o"
+    },
+    {
+      "prompt_id": 31,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 31,
+      "prompt_text": "This is the news you’re looking for. Carrie Fisher has seemingly confirmed to Palm Beach Illustrated magazine that she will ",
+      "source_head": "This is the news you’re looking for. Carrie Fisher has seemingly confirmed to Palm Beach Illustrated magazine that she will be returning to that Galaxy Far, Far Away for J.J. Abrams’ Star Wars: Episode VII. Taken with Mark Hamill’s recent c"
+    },
+    {
+      "prompt_id": 32,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 32,
+      "prompt_text": "numerous aunts, uncles and cousins. She attended Shanksville Stonycreek High School and was a member of St. Paul's Lutheran Church, ",
+      "source_head": "numerous aunts, uncles and cousins. She attended Shanksville Stonycreek High School and was a member of St. Paul's Lutheran Church, Buckstown. Family will receive friends from 2 to 4 p.m. and 6 p.m. until time of service at 8 p.m. Sunday at"
+    },
+    {
+      "prompt_id": 33,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 33,
+      "prompt_text": "In the market for a low-cost networked storage solution? You may want to take a look at the Netgear ReadyNAS ",
+      "source_head": "In the market for a low-cost networked storage solution? You may want to take a look at the Netgear ReadyNAS 104. Typically, home users have been subjected to very few, true performance NAS products. If you wanted true performance, you had "
+    },
+    {
+      "prompt_id": 34,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 34,
+      "prompt_text": "No, Trump can’t pardon himself. The Constitution tells us so. Correction: An earlier version of this op-ed misspelled the name ",
+      "source_head": "No, Trump can’t pardon himself. The Constitution tells us so. Correction: An earlier version of this op-ed misspelled the name of former defense secretary Caspar Weinberger. This version has been updated. Laurence H. Tribe is the Carl M. Lo"
+    },
+    {
+      "prompt_id": 35,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 35,
+      "prompt_text": "MANILA, Philippines — The state-run Land Bank of the Philippines (Landbank) has extended by one more month or until Jan. ",
+      "source_head": "MANILA, Philippines — The state-run Land Bank of the Philippines (Landbank) has extended by one more month or until Jan. 31 next year its revised offer to buy out existing Philippine Dealing System Holdings Corp. (PDS) shareholders and gain"
+    },
+    {
+      "prompt_id": 36,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 36,
+      "prompt_text": "Jerry Springer says he is still deciding whether he will run for Ohio governor in 2018. Speculation around Springer’s potential ",
+      "source_head": "Jerry Springer says he is still deciding whether he will run for Ohio governor in 2018. Speculation around Springer’s potential gubernatorial bid has been growing for several months. The Enquirer also reported Wednesday that Springer is sol"
+    },
+    {
+      "prompt_id": 37,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 37,
+      "prompt_text": "It’s a continuation of a trend they have seen over the last several years. “It’s been almost three years of ",
+      "source_head": "It’s a continuation of a trend they have seen over the last several years. “It’s been almost three years of nothing but above normal temperatures for the most part,” Zierden told the Bradenton Herald in a phone inteview Monday. He noted tha"
+    },
+    {
+      "prompt_id": 38,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 38,
+      "prompt_text": "This mildly racy spot introduces us to the character of the brown M&M, who only looks like she’s not wearing ",
+      "source_head": "This mildly racy spot introduces us to the character of the brown M&M, who only looks like she’s not wearing her shell. And it does so by showing us more than we ever cared to see of one of her bagmates. “That is not something I want to be "
+    },
+    {
+      "prompt_id": 39,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 39,
+      "prompt_text": "Originally Published: September 24, 2018 8 p.m. Soledad O’Brien, 10 to 11:30 a.m., Yavapai College Performing Arts Center, 1100 E ",
+      "source_head": "Originally Published: September 24, 2018 8 p.m. Soledad O’Brien, 10 to 11:30 a.m., Yavapai College Performing Arts Center, 1100 E Sheldon St, Prescott. Hear her take on the roles we play in our communities to create meaningful change. Can y"
+    },
+    {
+      "prompt_id": 40,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 40,
+      "prompt_text": "Located near all that the Catskills has to offer! Close to Hunter Mountain, Wyndham, state land, antiquing and many other ",
+      "source_head": "Located near all that the Catskills has to offer! Close to Hunter Mountain, Wyndham, state land, antiquing and many other recreational opportunities in the area. Also very close to the Hudson River. Come see this charming home with a rockin"
+    },
+    {
+      "prompt_id": 41,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 41,
+      "prompt_text": "Attendees visit the Vodafone Group pavilion at the Mobile World Congress in Barcelona, Spain, March 4, 2015. Vodafone, one of ",
+      "source_head": "Attendees visit the Vodafone Group pavilion at the Mobile World Congress in Barcelona, Spain, March 4, 2015. Vodafone, one of the world's biggest telecoms companies, announced better-than-expected sales Friday as its 4G plans grow. The U.K."
+    },
+    {
+      "prompt_id": 42,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 42,
+      "prompt_text": "NORTH BRUNSWICK, N.J. — Body cameras captured the moment a North Brunswick police officer climbed up a burning building to ",
+      "source_head": "NORTH BRUNSWICK, N.J. — Body cameras captured the moment a North Brunswick police officer climbed up a burning building to rescue a family. The fire started Saturday around 10:20 P.M. at the Governor's Pointe Condominiums. When Officer Gras"
+    },
+    {
+      "prompt_id": 43,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 43,
+      "prompt_text": "The Congress of South African Trade Unions has noted the latest cabinet reshuffle by President Jacob Zuma. We can confirm ",
+      "source_head": "The Congress of South African Trade Unions has noted the latest cabinet reshuffle by President Jacob Zuma. We can confirm that the federation did receive a courtesy call from President Jacob Zuma regarding his decision to reshuffle his cabi"
+    },
+    {
+      "prompt_id": 44,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 44,
+      "prompt_text": "The NHS is still running Windows XP en masse, two and a half years after Microsoft stopped delivering bug fixes ",
+      "source_head": "The NHS is still running Windows XP en masse, two and a half years after Microsoft stopped delivering bug fixes and security updates. Nearly all of England NHS trusts – 90 per cent – continue to rely on PCs installed with Microsoft’s 15-yea"
+    },
+    {
+      "prompt_id": 45,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 45,
+      "prompt_text": "After much anticipation, Melania Trump has finally given the world a glimpse of her platform. Like those before her, Trump ",
+      "source_head": "After much anticipation, Melania Trump has finally given the world a glimpse of her platform. Like those before her, Trump is keen to make a difference in her own unique way. Speaking in the Rose Garden, she officially launched \"Be Best,\" w"
+    },
+    {
+      "prompt_id": 46,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 46,
+      "prompt_text": "OKLAHOMA CITY - Kevin Durant scored 25 points, James Harden added a spark with 23 points off the bench while ",
+      "source_head": "OKLAHOMA CITY - Kevin Durant scored 25 points, James Harden added a spark with 23 points off the bench while returning from an injury and the Oklahoma City Thunder ended a string of futility against the Houston Rockets with a 122-104 victor"
+    },
+    {
+      "prompt_id": 47,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 47,
+      "prompt_text": "We build our students up only to encourage them to flee. Why? Combining advertising campaigns handled by pros along with ",
+      "source_head": "We build our students up only to encourage them to flee. Why? Combining advertising campaigns handled by pros along with play on the editorial side of reputable media outlets gets a business noticed by potential customers who won’t be conce"
+    },
+    {
+      "prompt_id": 48,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 48,
+      "prompt_text": "1 Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father's ",
+      "source_head": "1 Then the people of the land took Jehoahaz the son of Josiah, and made him king in his father's stead in Jerusalem. 2 Joahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. 3 And the king of"
+    },
+    {
+      "prompt_id": 49,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 49,
+      "prompt_text": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The ",
+      "source_head": "Federal Reserve Bank of Minneapolis President Narayana Kocherlakota will step down when his current term ends in February 2016. The Federal Reserve Bank of Minneapolis president said the U.S. central bank risked damaging its credibility. Th"
+    },
+    {
+      "prompt_id": 50,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 50,
+      "prompt_text": "This bicycle sprocket hub and sprockets from the Wright Bicycle Co. are on display at the National Museum of the ",
+      "source_head": "This bicycle sprocket hub and sprockets from the Wright Bicycle Co. are on display at the National Museum of the United States Air Force. The Wrights later used a bicycle-type chain drive in their early airplanes. Also on display are a comp"
+    },
+    {
+      "prompt_id": 51,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 51,
+      "prompt_text": "Roger Federer of Switzerland and Bill Gates shake hands at the Match For Africa 4 exhibition match at KeyArena on ",
+      "source_head": "Roger Federer of Switzerland and Bill Gates shake hands at the Match For Africa 4 exhibition match at KeyArena on April 29, 2017 in Seattle, Washington. When I was in my 20s and early 30s, my whole life was focused on work. I didn’t take va"
+    },
+    {
+      "prompt_id": 52,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 52,
+      "prompt_text": "Elvis Costello played a two-hour, 25-song show that touched on phases throughout his career, both deep cuts and hits, as ",
+      "source_head": "Elvis Costello played a two-hour, 25-song show that touched on phases throughout his career, both deep cuts and hits, as well as nine of the new disc’s 12 songs. And to the delight of the nearly sold-out crowd, Costello did them all them we"
+    },
+    {
+      "prompt_id": 53,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 53,
+      "prompt_text": "BAGHDAD, Iraq -- Fighting in the Shiite stronghold of Sadr City killed 23 Iraqis yesterday, hospital officials said, and the ",
+      "source_head": "BAGHDAD, Iraq -- Fighting in the Shiite stronghold of Sadr City killed 23 Iraqis yesterday, hospital officials said, and the U.S. military reported five troop deaths, as April showed signs of becoming the worst month for U.S. forces in Iraq"
+    },
+    {
+      "prompt_id": 54,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 54,
+      "prompt_text": "With its eye on Western next-gen gamers, the Japanese publisher pays $15 million for Secret Level. Sega Holdings of USA ",
+      "source_head": "With its eye on Western next-gen gamers, the Japanese publisher pays $15 million for Secret Level. Sega Holdings of USA announced on Monday that it has purchased independent game studio Secret Level for $15 million. Last July, Sega announce"
+    },
+    {
+      "prompt_id": 55,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 55,
+      "prompt_text": "Tulsa race riot survivor: \"Learn how to forgive, but never forget\" SAN FRANCISCO, California (CNN) -- A 100-inch, high definition ",
+      "source_head": "Tulsa race riot survivor: \"Learn how to forgive, but never forget\" SAN FRANCISCO, California (CNN) -- A 100-inch, high definition screen projects an intense college basketball game. Massage therapists rub the nervous tensions of men and wom"
+    },
+    {
+      "prompt_id": 56,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 56,
+      "prompt_text": "Two recently published reports shed damning light on the high cost of low wages in the fast food industry – ",
+      "source_head": "Two recently published reports shed damning light on the high cost of low wages in the fast food industry – an industry dominated by the restaurant giant McDonald’s, which raked-in over $5.4 billion in profits last year. The reports – Super"
+    },
+    {
+      "prompt_id": 57,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 57,
+      "prompt_text": "When Cait and I found out how easy it is to make ravioli–and with such completely impressive and delicious results!–we ",
+      "source_head": "When Cait and I found out how easy it is to make ravioli–and with such completely impressive and delicious results!–we just had to share this fabulous harvest recipe with you. This dish is a poem to autumn, filled with sweet, tender buttern"
+    },
+    {
+      "prompt_id": 58,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 58,
+      "prompt_text": "Every morning on The Style Blog, we celebrate the best footwear weve come across. Now, for your benefit, its all ",
+      "source_head": "Every morning on The Style Blog, we celebrate the best footwear weve come across. Now, for your benefit, its all in one place. Every morning on The Style Blog, we celebrate the best footwear we've come across. Now, for your benefit, it's al"
+    },
+    {
+      "prompt_id": 59,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 59,
+      "prompt_text": "It may not have been enough to bring out the skis, but Wood River Valley residents woke up with a ",
+      "source_head": "It may not have been enough to bring out the skis, but Wood River Valley residents woke up with a shock Wednesday to see a snowstorm three days before the start of summer. Elizabeth Padian, a meteorologist with the National Weather Service "
+    },
+    {
+      "prompt_id": 60,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 60,
+      "prompt_text": "LOS ANGELES – A lawsuit filed Wednesday against ABC (search) and \"American Idol\" judge Simon Cowell (search) alleges they conspired ",
+      "source_head": "LOS ANGELES – A lawsuit filed Wednesday against ABC (search) and \"American Idol\" judge Simon Cowell (search) alleges they conspired to steal the brand and concept of \"Million Dollar Idea,\" a series airing in syndication. The suit, filed in "
+    },
+    {
+      "prompt_id": 61,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 61,
+      "prompt_text": "Are stoners now a target advertising demographic for fast food companies? Ever since Harold and Kumar went to White Castle, ",
+      "source_head": "Are stoners now a target advertising demographic for fast food companies? Ever since Harold and Kumar went to White Castle, fast-food companies have become increasingly blatant about targeting to stoners in their advertisements. July 31, 20"
+    },
+    {
+      "prompt_id": 62,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 62,
+      "prompt_text": "Seren Rayne Frank Sutherland, a six lb., eight oz., girl, was born Saturday, Dec. 3, 2016, at Yavapai Regional Medical ",
+      "source_head": "Seren Rayne Frank Sutherland, a six lb., eight oz., girl, was born Saturday, Dec. 3, 2016, at Yavapai Regional Medical Center to Donell Sutherland and Adam Frank of Prescott. Alexander Velasco, a six lb., 12 oz., boy, was born Wednesday, De"
+    },
+    {
+      "prompt_id": 63,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 63,
+      "prompt_text": "Due to Hurricane Irene, parts of New Jersey were declared a federal disaster area this week. Federal funding is available ",
+      "source_head": "Due to Hurricane Irene, parts of New Jersey were declared a federal disaster area this week. Federal funding is available to people in Bergen, Essex, Morris, Passaic, and Somerset Counties. More than 150,000 homes and businesses in the stat"
+    },
+    {
+      "prompt_id": 64,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 64,
+      "prompt_text": "Adventist HealthCare seeks to hire a Med Surg Registered Nurse who will embrace our mission to extend God's care through ",
+      "source_head": "Adventist HealthCare seeks to hire a Med Surg Registered Nurse who will embrace our mission to extend God's care through the ministry of physical, mental and spiritual healing. If you want to make a difference in someone's life every day, c"
+    },
+    {
+      "prompt_id": 65,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 65,
+      "prompt_text": "As many British visitors to France have learnt to their dismay, if you ask a local, “Parlez-vous anglais?”, the answer ",
+      "source_head": "As many British visitors to France have learnt to their dismay, if you ask a local, “Parlez-vous anglais?”, the answer is often “Non”. Such a response, perhaps accompanied by a dismissive Gallic shrug, may prompt the appearance on the trave"
+    },
+    {
+      "prompt_id": 66,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 66,
+      "prompt_text": "Check out the Charleston Parks Conservancy's newest glow-up project at their inaugural Hampton Park culinary event, Shucked + Sauced, Sat. ",
+      "source_head": "Check out the Charleston Parks Conservancy's newest glow-up project at their inaugural Hampton Park culinary event, Shucked + Sauced, Sat. Jan. 26 from 1 to 4 p.m. The event will take place at the newly renovated Rose Pavilion, a previously"
+    },
+    {
+      "prompt_id": 67,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 67,
+      "prompt_text": "For professors, publishing in elite journals is an unavoidable part of university life. The grueling process of subjecting work to ",
+      "source_head": "For professors, publishing in elite journals is an unavoidable part of university life. The grueling process of subjecting work to the up-or-down judgment of credentialed scholarly peers has been a cornerstone of academic culture since at l"
+    },
+    {
+      "prompt_id": 68,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 68,
+      "prompt_text": "Adweek: So what’s a digital-media tyro like you doing at a fusty old-media company like CBS? Jim Lanzone: I don’t ",
+      "source_head": "Adweek: So what’s a digital-media tyro like you doing at a fusty old-media company like CBS? Jim Lanzone: I don’t really think of it that way at all. People think the Internet will supercede TV, but it’s really been more additive than anyth"
+    },
+    {
+      "prompt_id": 69,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 69,
+      "prompt_text": "After rebranding from beverages to a blockchain company, Long Blockchain says it is refocusing yet again and launching operations related ",
+      "source_head": "After rebranding from beverages to a blockchain company, Long Blockchain says it is refocusing yet again and launching operations related to gift cards, as well as naming a new CEO. The Farmingdale-based firm said it has formed a new subsid"
+    },
+    {
+      "prompt_id": 70,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 70,
+      "prompt_text": "A live events and bespoke creative technical solutions company based in Loughborough is seeking a technical project manager to join ",
+      "source_head": "A live events and bespoke creative technical solutions company based in Loughborough is seeking a technical project manager to join their growing production team. You may currently be working be working as an audio-visual/AV project manager"
+    },
+    {
+      "prompt_id": 71,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 71,
+      "prompt_text": "Noel Gallo, an organ builder who designed a new organ at Xewkija parish church and Paolo Oreni, an international organist ",
+      "source_head": "Noel Gallo, an organ builder who designed a new organ at Xewkija parish church and Paolo Oreni, an international organist from Italy, gave a two-hour masterclass to organists and other musicians at the church. They also briefed pianists on "
+    },
+    {
+      "prompt_id": 72,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 72,
+      "prompt_text": "The latest report from Violence Policy Center. I find it ironic and sad that the very day an annual report ",
+      "source_head": "The latest report from Violence Policy Center. I find it ironic and sad that the very day an annual report on violence against women was released, a famed pro athlete was kicked off his team for slugging his wife in the face. By now you’ve "
+    },
+    {
+      "prompt_id": 73,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 73,
+      "prompt_text": "Meet Google's Robot Army. It's Growing. Google can't stop buying robotics companies. In the past two months, eight of the ",
+      "source_head": "Meet Google's Robot Army. It's Growing. Google can't stop buying robotics companies. In the past two months, eight of the 12 companies the search giant has acquired have \"robotics\" in their name or descriptions. Here's your complete breakdo"
+    },
+    {
+      "prompt_id": 74,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 74,
+      "prompt_text": "Thorpe of the New York Trucking and Delivery Association says the decision to raise penalties won’t solve the parking crisis. ",
+      "source_head": "Thorpe of the New York Trucking and Delivery Association says the decision to raise penalties won’t solve the parking crisis. For more than a decade, Ken Thorpe has been a soldier in the fight against parking tickets, which has become part "
+    },
+    {
+      "prompt_id": 75,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 75,
+      "prompt_text": "Michael Schumacher - a seven-time Formula One world champion is \"not bedridden or living on tubes\", it has been reported ",
+      "source_head": "Michael Schumacher - a seven-time Formula One world champion is \"not bedridden or living on tubes\", it has been reported as new details about his recovery emerge. It's nearly five years (December 29, 2013) since the 50 year old hit his head"
+    },
+    {
+      "prompt_id": 76,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 76,
+      "prompt_text": "A District Court decision overturning major provisions of three Executive Orders has been appealed. Here is a summary of the ",
+      "source_head": "A District Court decision overturning major provisions of three Executive Orders has been appealed. Here is a summary of the arguments made by Justice Department. Wednesday, December 5th, has been declared a day of mourning by President Tru"
+    },
+    {
+      "prompt_id": 77,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 77,
+      "prompt_text": "On April 4, 1975, Bill Gates and Paul Allen founded Microsoft. The small firm used to develop and sell BASIC ",
+      "source_head": "On April 4, 1975, Bill Gates and Paul Allen founded Microsoft. The small firm used to develop and sell BASIC interpreters. Little did they know that in the next 40 years, their company will become the biggest software firm in the world, and"
+    },
+    {
+      "prompt_id": 78,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 78,
+      "prompt_text": "The democratization of data is a real phenomenon, but building a sustainable data democracy means truly giving power to the ",
+      "source_head": "The democratization of data is a real phenomenon, but building a sustainable data democracy means truly giving power to the people. The alternative is just a shift of power from traditional data analysts within IT departments to a new gener"
+    },
+    {
+      "prompt_id": 79,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 79,
+      "prompt_text": "John Beilein and the Michigan Wolverines are one win away from a national title. On Saturday the Wolverines knocked off ",
+      "source_head": "John Beilein and the Michigan Wolverines are one win away from a national title. On Saturday the Wolverines knocked off Loyola-Chicago 69-57, outscoring the Ramblers 47-28 in the second half. Beilein, 65, was born and raised in Burt, NY, a "
+    },
+    {
+      "prompt_id": 80,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 80,
+      "prompt_text": "The Council of PR Firms yesterday urged PR firms to \"pledge\" to Wikipedia that they will only submit materials to ",
+      "source_head": "The Council of PR Firms yesterday urged PR firms to \"pledge\" to Wikipedia that they will only submit materials to the hidden \"Talk\" pages where posts can languish for long periods and which are supervised by anonymous \"editors.\" Jimmy Wales"
+    },
+    {
+      "prompt_id": 81,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 81,
+      "prompt_text": "Two Democratic state representatives from South Florida said Thursday that they've gathered with 33 colleagues to file paperwork with the ",
+      "source_head": "Two Democratic state representatives from South Florida said Thursday that they've gathered with 33 colleagues to file paperwork with the Secretary of State to poll lawmakers for their support for a special session. At the end of session, s"
+    },
+    {
+      "prompt_id": 82,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 82,
+      "prompt_text": "He and a neighbor managed to lure the horse toward them with a handful of grass, Sickinger said, and they ",
+      "source_head": "He and a neighbor managed to lure the horse toward them with a handful of grass, Sickinger said, and they even petted the horse for a bit. Sickinger had a strap he planned to use to bridle the horse, but he said better judgment took over an"
+    },
+    {
+      "prompt_id": 83,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 83,
+      "prompt_text": "Hospitals are seeking ways to reduce readmissions, due to new penalties from Medicare. Demand for qualified professionals in the health ",
+      "source_head": "Hospitals are seeking ways to reduce readmissions, due to new penalties from Medicare. Demand for qualified professionals in the health care industry is expected to continue rising, according to the Healthcare Association of New York State."
+    },
+    {
+      "prompt_id": 84,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 84,
+      "prompt_text": "Wolf, 33, joined the Africa Mercy crew in March, taking a short leave from her job as a registered nurse ",
+      "source_head": "Wolf, 33, joined the Africa Mercy crew in March, taking a short leave from her job as a registered nurse with the UC Davis Medical Center’s burn unit. She sat down recently to talk about language barriers, cabin fever and readjusting to lif"
+    },
+    {
+      "prompt_id": 85,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 85,
+      "prompt_text": "OK!'s NYC Fashion Week Blog: Gwen Stefani's L.A.M.B. Can’t make it to NYC for Fashion Week? Don’t worry, OK!’s got ",
+      "source_head": "OK!'s NYC Fashion Week Blog: Gwen Stefani's L.A.M.B. Can’t make it to NYC for Fashion Week? Don’t worry, OK!’s got you covered! We’ll be hitting up all the big shows and reporting back right here, every day, as soon as we tear our eyes off "
+    },
+    {
+      "prompt_id": 86,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 86,
+      "prompt_text": "A Chicago judge on Thursday dismissed a patent case between Apple and Motorola because, he said, neither side could adequately ",
+      "source_head": "A Chicago judge on Thursday dismissed a patent case between Apple and Motorola because, he said, neither side could adequately \"establish a right to relief.\" As a result, a trial that was set to begin on Monday has been canceled. However, U"
+    },
+    {
+      "prompt_id": 87,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 87,
+      "prompt_text": "FILE - Guinea security forces, center, face people rioting and burning rubbish and other goods in the streets of Conakry, ",
+      "source_head": "FILE - Guinea security forces, center, face people rioting and burning rubbish and other goods in the streets of Conakry, April 13, 2015. Guinean security forces clashed with anti-government protesters in the opposition stronghold of Labe o"
+    },
+    {
+      "prompt_id": 88,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 88,
+      "prompt_text": "Ford is building cars that \"talk\" with traffic lights, road signs and pedestrians. At CES 2019 in Las Vegas on ",
+      "source_head": "Ford is building cars that \"talk\" with traffic lights, road signs and pedestrians. At CES 2019 in Las Vegas on Monday, the automaker announced plans to start selling cars that feature this type of technology in 2022. The technology, called "
+    },
+    {
+      "prompt_id": 89,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 89,
+      "prompt_text": "Sunday's college basketball roundup: No. 8 N.C. State women stay unbeaten with rout at U.Va. Do conference hoops tournaments hinder ",
+      "source_head": "Sunday's college basketball roundup: No. 8 N.C. State women stay unbeaten with rout at U.Va. Do conference hoops tournaments hinder NCAA preparation?"
+    },
+    {
+      "prompt_id": 90,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 90,
+      "prompt_text": "Things get a bit messy in a new brand campaign from Chobani. Centered on the tag \"Love This Life,\" its ",
+      "source_head": "Things get a bit messy in a new brand campaign from Chobani. Centered on the tag \"Love This Life,\" its anthem film opens with a young family -- dad, mom, young daughter and son -- looking a bit worse for the wear as they trudge back to thei"
+    },
+    {
+      "prompt_id": 91,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 91,
+      "prompt_text": "“All the gold names have been pretty much getting hammered both on the credit side and the equity side for ",
+      "source_head": "“All the gold names have been pretty much getting hammered both on the credit side and the equity side for quite some time with gold prices coming down,” Wen Li, an analyst at CreditSights Inc., said in a phone interview yesterday. Pascua- "
+    },
+    {
+      "prompt_id": 92,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 92,
+      "prompt_text": "Trump's new immigration ad was panned as racist. Turns out it was also based on a falsehood. - Hartford Courant ",
+      "source_head": "Trump's new immigration ad was panned as racist. Turns out it was also based on a falsehood. - Hartford Courant Trump's new immigration ad was panned as racist. Turns out it was also based on a falsehood. Trump's new immigration ad was pann"
+    },
+    {
+      "prompt_id": 93,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 93,
+      "prompt_text": "Customers line up to purchase lottery tickets, Monday, Oct. 22, 2018, at La Preferida Superdiscount store in Hialeah, Fla. For ",
+      "source_head": "Customers line up to purchase lottery tickets, Monday, Oct. 22, 2018, at La Preferida Superdiscount store in Hialeah, Fla. For all the anticipation about whether someone will finally snag the gigantic Mega Millions and Powerball jackpots, t"
+    },
+    {
+      "prompt_id": 94,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 94,
+      "prompt_text": "• Engage with other SRA functions to support the evidence gathering and credible deterrence approach of the SRA. The role ",
+      "source_head": "• Engage with other SRA functions to support the evidence gathering and credible deterrence approach of the SRA. The role of a Forensic Investigator is a key component part of the Investigation and Supervision Directorate within the SRA. As"
+    },
+    {
+      "prompt_id": 95,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 95,
+      "prompt_text": "There're no feet like happy feet and these Rechargeable Heated Slippers will ensure your feet are always happy. Just slip ",
+      "source_head": "There're no feet like happy feet and these Rechargeable Heated Slippers will ensure your feet are always happy. Just slip them on your frigid toes and let the internal heat warm you up. They're fully rechargeable so you never have to worry "
+    },
+    {
+      "prompt_id": 96,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 96,
+      "prompt_text": "MidMichigan Health plans to restructure and re-align its work force in the coming months, and the changes could mean laying ",
+      "source_head": "MidMichigan Health plans to restructure and re-align its work force in the coming months, and the changes could mean laying off as many as 1 percent of the company's nearly 5,000 workers. MidMichigan Health is the parent company of MidMichi"
+    },
+    {
+      "prompt_id": 97,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 97,
+      "prompt_text": "When Katherine Gotovsky sees a problem, her response is immediate. The gears in her 17-year-old mind start working away, determined ",
+      "source_head": "When Katherine Gotovsky sees a problem, her response is immediate. The gears in her 17-year-old mind start working away, determined to come up with a solution whether it’s at school, retirement residences or in the tech industry. She is one"
+    },
+    {
+      "prompt_id": 98,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 98,
+      "prompt_text": "Tennessee farmers are cashing in on the local food movement. The federal government never measured just how much Tennessee farmers ",
+      "source_head": "Tennessee farmers are cashing in on the local food movement. The federal government never measured just how much Tennessee farmers sold directly to customers at, say, a farmers market, but when it did (for the first time this year), it foun"
+    },
+    {
+      "prompt_id": 99,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 99,
+      "prompt_text": "A rocket attack by ISIS militants in northern Syria caused symptoms of “chemical gas” in 22 Syrian rebels, state media ",
+      "source_head": "A rocket attack by ISIS militants in northern Syria caused symptoms of “chemical gas” in 22 Syrian rebels, state media cited the Turkish armed forces as saying on Sunday. The attack targeted Turkey-backed rebels who have been besieging the "
+    },
+    {
+      "prompt_id": 100,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 100,
+      "prompt_text": "Ozier Muhammad/The New York TimesReynaldo Rodriguez of the Care Coordination program counseled a patient with H.I.V. on how to adhere ",
+      "source_head": "Ozier Muhammad/The New York TimesReynaldo Rodriguez of the Care Coordination program counseled a patient with H.I.V. on how to adhere to a drug regimen. Doctors are very good at telling us what to do — but we are very poor at doing it. In f"
+    },
+    {
+      "prompt_id": 101,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 101,
+      "prompt_text": "And yet the Cardinals are in position to complete a three-game sweep of the Cubs on Sunday night after erasing ",
+      "source_head": "And yet the Cardinals are in position to complete a three-game sweep of the Cubs on Sunday night after erasing deficits of 4-0 and 6-4 on Saturday before Kolten Wong's two-run walk-off homer in the 10th inning capped an 8-6 victory Saturday"
+    },
+    {
+      "prompt_id": 102,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 102,
+      "prompt_text": "Talking to the press people here at the Heliport on Saturday, the National BJP leader, while stating the Naga issue ",
+      "source_head": "Talking to the press people here at the Heliport on Saturday, the National BJP leader, while stating the Naga issue as complicated, said all the stakeholders would taken on board while trying to find a permanent solution to it. When asked a"
+    },
+    {
+      "prompt_id": 103,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 103,
+      "prompt_text": "LUCERNE VALLEY — A motorist on Thursday morning found the body of a bicyclist who had been struck by a ",
+      "source_head": "LUCERNE VALLEY — A motorist on Thursday morning found the body of a bicyclist who had been struck by a hit-and-run driver the night before. Angelo “Andy” Douglas Azzato, 47, of Lucerne Valley had been riding east on Highway 247 when he was "
+    },
+    {
+      "prompt_id": 104,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 104,
+      "prompt_text": "Famously tight-lipped about her Scientology faith, The Handmaid’s Tale star Elisabeth Moss has opened up in a candid new interview. ",
+      "source_head": "Famously tight-lipped about her Scientology faith, The Handmaid’s Tale star Elisabeth Moss has opened up in a candid new interview. Elisabeth Moss won’t delve into the specifics of her beliefs in Scientology, but she does think they perfect"
+    },
+    {
+      "prompt_id": 105,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 105,
+      "prompt_text": "TOPEKA, Kan. (WIBW) -- With a snowstorm (and possible blizzard) moving, many of us will spend Sunday indoors. And, while ",
+      "source_head": "TOPEKA, Kan. (WIBW) -- With a snowstorm (and possible blizzard) moving, many of us will spend Sunday indoors. And, while our four-legged friends may come with their own fur coats, they are still vulnerable to frostbite and exposure. Accordi"
+    },
+    {
+      "prompt_id": 106,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 106,
+      "prompt_text": "Madore received the package along with three crosses she had ordered in memory of her son Christopher Medina who died ",
+      "source_head": "Madore received the package along with three crosses she had ordered in memory of her son Christopher Medina who died July 15, 2009, in a traffic accident along the Carson River. She purchased the crosses from Harriet Carter, a Pennsylvania"
+    },
+    {
+      "prompt_id": 107,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 107,
+      "prompt_text": "Rockland — Maine-based nonprofit WindowDressers coordinates community volunteers to build affordable, re-usable, interior insulating window inserts that tighten up existing ",
+      "source_head": "Rockland — Maine-based nonprofit WindowDressers coordinates community volunteers to build affordable, re-usable, interior insulating window inserts that tighten up existing windows. The cost of the insert depends on the size of the window, "
+    },
+    {
+      "prompt_id": 108,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 108,
+      "prompt_text": "France is in a difficult position. It has not had a sufficient spur to reform, despite the platitudes by both ",
+      "source_head": "France is in a difficult position. It has not had a sufficient spur to reform, despite the platitudes by both Sarkozy and Hollande. The fall of the Berlin Wall was a great spur to Germany, though it took it a few years to realize it. A capi"
+    },
+    {
+      "prompt_id": 109,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 109,
+      "prompt_text": "The Volstead Act was repealed on this date in 1933, returning control of alcohol to the states, and it was ",
+      "source_head": "The Volstead Act was repealed on this date in 1933, returning control of alcohol to the states, and it was a happy day at the F.X. Matt Brewery. UTICA, N.Y. -- A total of 85 years ago Wednesday marked the end of prohibition, which meant leg"
+    },
+    {
+      "prompt_id": 110,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 110,
+      "prompt_text": "Nelson Mandela statue in Westminster, London. \"Comrade Mandela's release was achieved through our struggles that had pushed the apartheid regime ",
+      "source_head": "Nelson Mandela statue in Westminster, London. \"Comrade Mandela's release was achieved through our struggles that had pushed the apartheid regime into a corner where they were forced to negotiate their way out of power,\" he said. \"Mandela's "
+    },
+    {
+      "prompt_id": 111,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 111,
+      "prompt_text": "Ronny Deila blamed a rutted, ploughed Hampden pitch for his side's failure to inflict League Cup embarrassment upon Rangers. Denying ",
+      "source_head": "Ronny Deila blamed a rutted, ploughed Hampden pitch for his side's failure to inflict League Cup embarrassment upon Rangers. Denying they removed their feet from the pedal after the break Deila warned the SPFL the awful pitch wasn't good en"
+    },
+    {
+      "prompt_id": 112,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 112,
+      "prompt_text": "Back in 1982, the Endangered Species Act took the ocelot under its protection. The ocelot is a vulnerable creature, susceptible ",
+      "source_head": "Back in 1982, the Endangered Species Act took the ocelot under its protection. The ocelot is a vulnerable creature, susceptible to habitat changes like roads, agriculture, housing developments and trapping. There may be fewer than 100 left "
+    },
+    {
+      "prompt_id": 113,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 113,
+      "prompt_text": "Why do CEOs need extravagant perks even when they are firing staff and pleading for taxpayer bailouts? It may just ",
+      "source_head": "Why do CEOs need extravagant perks even when they are firing staff and pleading for taxpayer bailouts? It may just be in their makeup, experts say. It takes arrogance and narcissism to become leader of a Fortune 500 company. Those same trai"
+    },
+    {
+      "prompt_id": 114,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 114,
+      "prompt_text": "Assembly Minority Leader Pat Hickey, R-Reno, will have a GOP primary election opponent in 2014. Richard Fineberg, a retired lawyer ",
+      "source_head": "Assembly Minority Leader Pat Hickey, R-Reno, will have a GOP primary election opponent in 2014. Richard Fineberg, a retired lawyer who specialized in workers compensation cases, confirmed Tuesday he would run against Hickey in the Assembly "
+    },
+    {
+      "prompt_id": 115,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 115,
+      "prompt_text": "Northeastern International Airways suspended service on all but one of its routes after an unsuccessful attempt to attract passengers with ",
+      "source_head": "Northeastern International Airways suspended service on all but one of its routes after an unsuccessful attempt to attract passengers with new cut-rate fares. The airline, which filed for bankruptcy Tuesday, suspended ''until further notice"
+    },
+    {
+      "prompt_id": 116,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 116,
+      "prompt_text": "Friday Night Live: Hilarious Improv Comedy featuring live music from pianist Keith Munslow! Get beside yourself with FNL’s interactive scenes, ",
+      "source_head": "Friday Night Live: Hilarious Improv Comedy featuring live music from pianist Keith Munslow! Get beside yourself with FNL’s interactive scenes, on-the-spot musicals, improvised song, dance, and skits! Performances are intended for audiences "
+    },
+    {
+      "prompt_id": 117,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 117,
+      "prompt_text": "DAVIDSON, N.C., Jan. 10, 2019 /PRNewswire/ -- Rocus Networks, a managed cybersecurity service provider for business, announced today that it ",
+      "source_head": "DAVIDSON, N.C., Jan. 10, 2019 /PRNewswire/ -- Rocus Networks, a managed cybersecurity service provider for business, announced today that it has entered the Palo Alto Networks NextWave Managed Security Service Provider (MSSP) Program. \"We c"
+    },
+    {
+      "prompt_id": 118,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 118,
+      "prompt_text": "Do Twinkle and mum Dimple share a wardrobe? The star wife was missing for a greater part of the year ",
+      "source_head": "Do Twinkle and mum Dimple share a wardrobe? The star wife was missing for a greater part of the year from public glare due to her pregnancy. Twinkle chose to wear an Abu Jani-Sandeep Khosla outfit, the same one her mother Dimple had worn la"
+    },
+    {
+      "prompt_id": 119,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 119,
+      "prompt_text": "McDonald’s jumped 5.3 percent after the world’s biggest fast-food chain by revenue topped analysts’ forecasts for profit and sales. Shares ",
+      "source_head": "McDonald’s jumped 5.3 percent after the world’s biggest fast-food chain by revenue topped analysts’ forecasts for profit and sales. Shares of oil refiner Andeavor surged 14.4 percent, the biggest percentage gainer on the S&P 500, after riva"
+    },
+    {
+      "prompt_id": 120,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 120,
+      "prompt_text": "the World Challenge a year ago. He won at Hilton Head on the U.S. Championships in Doral and Shanghai. the ",
+      "source_head": "the World Challenge a year ago. He won at Hilton Head on the U.S. Championships in Doral and Shanghai. the way up to No. 12. Woods won the vote as the best player on the U.S. PGA Tour. and Firestone – and there would be no debate. who are a"
+    },
+    {
+      "prompt_id": 121,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 121,
+      "prompt_text": "Hull - Where the US goes the UK often follows. This is especially true of negatives. If the US has ",
+      "source_head": "Hull - Where the US goes the UK often follows. This is especially true of negatives. If the US has extreme weather we usually experience similar a few days later. If violent crime increases across the Pond likewise in the UK. Then there is "
+    },
+    {
+      "prompt_id": 122,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 122,
+      "prompt_text": "2 bedroom home with extra room for office or 3rd bedroom. Kitchen features Oak cabinets. Home features wood flooring in ",
+      "source_head": "2 bedroom home with extra room for office or 3rd bedroom. Kitchen features Oak cabinets. Home features wood flooring in living area and large deck for entertaining. Pets negotiable with deposit."
+    },
+    {
+      "prompt_id": 123,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 123,
+      "prompt_text": "GRANT COUNTY, N.M. - \"Everywhere I go, the kids call me the book lady,\" Dolly Parton said. She may be ",
+      "source_head": "GRANT COUNTY, N.M. - \"Everywhere I go, the kids call me the book lady,\" Dolly Parton said. She may be known for her country hits, but for years Dolly Parton has been giving out books to homes all over the country, with the help of people li"
+    },
+    {
+      "prompt_id": 124,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 124,
+      "prompt_text": "Following her acceptance into iPOP! after try-outs in Fort Walton Beach, Michelle Bryant is talking positively about her fast-approaching opportunity. ",
+      "source_head": "Following her acceptance into iPOP! after try-outs in Fort Walton Beach, Michelle Bryant is talking positively about her fast-approaching opportunity. In her mind, there are no ifs, ands or buts. She�s going. Period. However, to participate"
+    },
+    {
+      "prompt_id": 125,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 125,
+      "prompt_text": "While many restaurants in New York City have close relationships with farmers, and boast unimpeachable farm-to-table ethics, far fewer have ",
+      "source_head": "While many restaurants in New York City have close relationships with farmers, and boast unimpeachable farm-to-table ethics, far fewer have actual gardens wherein they grow the produce that’s used on their plates. Six great restaurants with"
+    },
+    {
+      "prompt_id": 126,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 126,
+      "prompt_text": "In the past 11 months, Mauti has had to rely on his words unlike any other time in his life. ",
+      "source_head": "In the past 11 months, Mauti has had to rely on his words unlike any other time in his life. Penn State’s leading tackler went from being a quiet, unquestioned leader to a harsh-talking student representative nearly overnight. When a scanda"
+    },
+    {
+      "prompt_id": 127,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 127,
+      "prompt_text": "T-Mobile has just rolled out a service called HotSpot @Homethat allows you to use a WiFi-enabled cell phone to make ",
+      "source_head": "T-Mobile has just rolled out a service called HotSpot @Homethat allows you to use a WiFi-enabled cell phone to make calls via a wireless network. You'll still use the phone with regular cellular airwaves while on the move, but once you're i"
+    },
+    {
+      "prompt_id": 128,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 128,
+      "prompt_text": "The FINANCIAL (AD) -- ProCredit Bank has donated a unique ex libris collection to the National Centre of Manuscripts. This ",
+      "source_head": "The FINANCIAL (AD) -- ProCredit Bank has donated a unique ex libris collection to the National Centre of Manuscripts. This donation was part of a project jointly initiated by the National Centre of Manuscripts and ProCredit Bank, in which t"
+    },
+    {
+      "prompt_id": 129,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 129,
+      "prompt_text": "\"Oh, you are stuck on homework problem number 13? I found a solution on YouTube. That helped a lot. Just ",
+      "source_head": "\"Oh, you are stuck on homework problem number 13? I found a solution on YouTube. That helped a lot. Just Google it, you can find all the solutions.\" The second problem is partially my fault. When I give an in-class assessment, I leave the s"
+    },
+    {
+      "prompt_id": 130,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 130,
+      "prompt_text": "These two healthcare REITs are trading for dirt-cheap valuations despite high dividends and a solid history of growth. Investing in ",
+      "source_head": "These two healthcare REITs are trading for dirt-cheap valuations despite high dividends and a solid history of growth. Investing in real estate investment trusts, or REITs, is one of the best ways to enjoy high dividends and the potential f"
+    },
+    {
+      "prompt_id": 131,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 131,
+      "prompt_text": "Up to an inch of snow is likely on the Eastern Shore and up into Sussex County Friday afternoon. Below-freezing ",
+      "source_head": "Up to an inch of snow is likely on the Eastern Shore and up into Sussex County Friday afternoon. Below-freezing temperatures this week is leading to extra slippery roads Friday as snow falls across the Delmarva Peninsula. Multiple school di"
+    },
+    {
+      "prompt_id": 132,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 132,
+      "prompt_text": "Young Lions skipper Brad Galvin isn’t afraid of taking his side’s ‘scrappy’ style of play into Sunday’s semi final clash ",
+      "source_head": "Young Lions skipper Brad Galvin isn’t afraid of taking his side’s ‘scrappy’ style of play into Sunday’s semi final clash with Henwood Park. Galvin has headlined the Lions’ defensive unit from centre back this season, putting together a stri"
+    },
+    {
+      "prompt_id": 133,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 133,
+      "prompt_text": "It’s dense, interesting, weird and funny, but what it’s all wrapped around is another “Chosen One” story that really feels ",
+      "source_head": "It’s dense, interesting, weird and funny, but what it’s all wrapped around is another “Chosen One” story that really feels drawn out and convoluted, crumbling into something tiresome and tedious. Where the science-fiction genre is concerned"
+    },
+    {
+      "prompt_id": 134,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 134,
+      "prompt_text": "For a career that once seemed so good on paper, the crisis in teacher recruitment is now hardly ever out ",
+      "source_head": "For a career that once seemed so good on paper, the crisis in teacher recruitment is now hardly ever out of the news. There are not enough people signing up to become teachers and too many are dropping out - some experienced due to the stre"
+    },
+    {
+      "prompt_id": 135,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 135,
+      "prompt_text": "Maddie Hinch and her England team-mates should be proud of their Hockey Women’s World Cup exploits, according to their head ",
+      "source_head": "Maddie Hinch and her England team-mates should be proud of their Hockey Women’s World Cup exploits, according to their head coach. The West Chiltington-based goalkeeper’s dreams of adding another medal to her collection were extinguished la"
+    },
+    {
+      "prompt_id": 136,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 136,
+      "prompt_text": "councilors at the USC Annenberg School for Communication. Arkansas governor and congressman who joined the board in 2006. renewed attention ",
+      "source_head": "councilors at the USC Annenberg School for Communication. Arkansas governor and congressman who joined the board in 2006. renewed attention to noncommercial broadcasting. The elections came at CPB&apos;s board meeting in New Orleans Tuesday"
+    },
+    {
+      "prompt_id": 137,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 137,
+      "prompt_text": "Anna C. Christensen has been a supporter of family planning since high school, when she stuffed envelopes as a volunteer ",
+      "source_head": "Anna C. Christensen has been a supporter of family planning since high school, when she stuffed envelopes as a volunteer at a Planned Parenthood affiliate in California. Now a Tucson resident, she continues to advocate for reproductive righ"
+    },
+    {
+      "prompt_id": 138,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 138,
+      "prompt_text": "The Las Vegas real estate market got a small reprieve in February; with sales volume at a four-year high for ",
+      "source_head": "The Las Vegas real estate market got a small reprieve in February; with sales volume at a four-year high for the month and a dip in foreclosure resales helping prices increase slightly from January. A total of 3,698 new and existing houses "
+    },
+    {
+      "prompt_id": 139,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 139,
+      "prompt_text": "Jesse Winker will undergo season-ending shoulder surgery. He was batting .299 this year with 7 homers and 43 RBI. Throughout ",
+      "source_head": "Jesse Winker will undergo season-ending shoulder surgery. He was batting .299 this year with 7 homers and 43 RBI. Throughout the last couple of seasons, Jesse Winker dealt with pain his right shoulder. After he felt more pain Monday, it was"
+    },
+    {
+      "prompt_id": 140,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 140,
+      "prompt_text": "Rafael Nadal became the first man to win eight titles at the same Grand Slam tournament after beating fellow Spaniard ",
+      "source_head": "Rafael Nadal became the first man to win eight titles at the same Grand Slam tournament after beating fellow Spaniard David Ferrer 6-3, 6-2, 6-3 in the French Open final on Sunday. If Rafael Nadal truly was going to be challenged, if his bi"
+    },
+    {
+      "prompt_id": 141,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 141,
+      "prompt_text": "Combined company will make Chevron second-largest petroleum producer in the world. The combined company will remain far behind Exxon Mobil ",
+      "source_head": "Combined company will make Chevron second-largest petroleum producer in the world. The combined company will remain far behind Exxon Mobil Corp. and Royal Dutch Shell Plc. in market capitalization, but Chevron will jump from being the world"
+    },
+    {
+      "prompt_id": 142,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 142,
+      "prompt_text": "No longer limited to calling other Jaxtr users, the service is taking cue from Skype for its revenue strategy. Jaxtr, ",
+      "source_head": "No longer limited to calling other Jaxtr users, the service is taking cue from Skype for its revenue strategy. Jaxtr, the dial-around service (see Jaxtr makes click-to-call really simple) that lets you make free calls to those people who ha"
+    },
+    {
+      "prompt_id": 143,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 143,
+      "prompt_text": "YOKOHAMA, Japan – Nissan Motor Co. announced it has licensed its Around View Monitor and Moving Object Detection technology, jointly ",
+      "source_head": "YOKOHAMA, Japan – Nissan Motor Co. announced it has licensed its Around View Monitor and Moving Object Detection technology, jointly developed with Clarion Co for use by Hitachi Construction Machinery Co. These two systems are the building "
+    },
+    {
+      "prompt_id": 144,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 144,
+      "prompt_text": "A three member bench of the Supreme Court has adjourned the hearing of Orange Line Metro Train case till Friday. ",
+      "source_head": "A three member bench of the Supreme Court has adjourned the hearing of Orange Line Metro Train case till Friday. During the course of proceedings today, the court summoned the Chairman Planning Commission, the Secretary Finance and the NAB "
+    },
+    {
+      "prompt_id": 145,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 145,
+      "prompt_text": "A concrete slab and 10-foot high block walls with exposed rebar sit behind a chain link fence as an ugly ",
+      "source_head": "A concrete slab and 10-foot high block walls with exposed rebar sit behind a chain link fence as an ugly reminder of how quickly the oceanfront condominium market crashed here in 2008. NEW SMYRNA BEACH — A concrete slab and 10-foot high blo"
+    },
+    {
+      "prompt_id": 146,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 146,
+      "prompt_text": "A primary school caretaker has been found guilty of attacking a group of teenagers. Karl Lucas, 27, of Manor Fields, ",
+      "source_head": "A primary school caretaker has been found guilty of attacking a group of teenagers. Karl Lucas, 27, of Manor Fields, Horsham, who is employed as a premises officer at the Three Bridges Primary School, Gales Drive, was involved in an attack "
+    },
+    {
+      "prompt_id": 147,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 148,
+      "prompt_text": "It may be noted that Air India's was the only service that plied between Madurai and Mumbai. Some passengers pointed ",
+      "source_head": "It may be noted that Air India's was the only service that plied between Madurai and Mumbai. Some passengers pointed out that all the tickets used to be sold out during the festive season and summer. Chennai: Much to the chagrin of air pass"
+    },
+    {
+      "prompt_id": 148,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 149,
+      "prompt_text": "It's not always easy to keep mentally focused during running. Focus requires discipline and a certain level of mental toughness, ",
+      "source_head": "It's not always easy to keep mentally focused during running. Focus requires discipline and a certain level of mental toughness, meaning that you have developed the capacity to perform to the best of your ability despite external conditions"
+    },
+    {
+      "prompt_id": 149,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 150,
+      "prompt_text": "Initiated by Joint Chiefs of Staff Chairman General Nathan Twining and Chief of Naval Operations Admiral Arleigh Burke, and then ",
+      "source_head": "Initiated by Joint Chiefs of Staff Chairman General Nathan Twining and Chief of Naval Operations Admiral Arleigh Burke, and then presided over by General Thomas Power, Director of the Joint Strategic Target Planning Staff (1960-1964), SIOP-"
+    },
+    {
+      "prompt_id": 150,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 151,
+      "prompt_text": "Amazingly, half of all Americans say they don’t care about government surveillance — and during a random sampling of people ",
+      "source_head": "Amazingly, half of all Americans say they don’t care about government surveillance — and during a random sampling of people on the streets of New York City not one could identify Edward Snowden, or what he did. That’s despite an Academy Awa"
+    },
+    {
+      "prompt_id": 151,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 152,
+      "prompt_text": "DAVENPORT - Don Skipper, an administrative assistant at Ridge Community High School, was named the school's head boys basketball coach ",
+      "source_head": "DAVENPORT - Don Skipper, an administrative assistant at Ridge Community High School, was named the school's head boys basketball coach Wednesday. Skipper has served as an assistant basketball coach the last two years for the Bolts and had s"
+    },
+    {
+      "prompt_id": 152,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 153,
+      "prompt_text": "Ubuntu 10.04 LTS Lucid Lynx is the latest Linux operating system from Canonical, aimed at consumers. It's free, but is ",
+      "source_head": "Ubuntu 10.04 LTS Lucid Lynx is the latest Linux operating system from Canonical, aimed at consumers. It's free, but is it sufficiently consumer friendly that you should switch from Windows? Dell offers Ubuntu Netbook Remix as an option pre-"
+    },
+    {
+      "prompt_id": 153,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 154,
+      "prompt_text": "Still image of Lisa Sharon Harper from YouTube. Pastors and lay leaders who represent minority and multiethnic communities and are ",
+      "source_head": "Still image of Lisa Sharon Harper from YouTube. Pastors and lay leaders who represent minority and multiethnic communities and are appalled by the prospect of a Donald Trump presidency have a blunt message for the white evangelical majority"
+    },
+    {
+      "prompt_id": 154,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 155,
+      "prompt_text": "New York’s bike share really does attract way more commuters than tourists. Since its debut last year, New York City’s ",
+      "source_head": "New York’s bike share really does attract way more commuters than tourists. Since its debut last year, New York City’s bike share system, Citi Bike, has been wildly popular. In its first six months of operation, the bright blue bikes logged"
+    },
+    {
+      "prompt_id": 155,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 156,
+      "prompt_text": "It’s amazing what a difference time can make in the way we perceive certain technologies. A few years ago, the ",
+      "source_head": "It’s amazing what a difference time can make in the way we perceive certain technologies. A few years ago, the idea of the cloud was terrifying to many people. What exactly did it mean to have something “in the cloud”? Was your personal inf"
+    },
+    {
+      "prompt_id": 156,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 157,
+      "prompt_text": "On Jan. 15, nine of 12 members of the National Park System Advisory Board sent a letter to Interior Secretary ",
+      "source_head": "On Jan. 15, nine of 12 members of the National Park System Advisory Board sent a letter to Interior Secretary Ryan Zinke announcing their resignation, effectively dissolving the board. It was an act of protest against an administration with"
+    },
+    {
+      "prompt_id": 157,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 158,
+      "prompt_text": "Boston Marathon Bombing Suspect Enters Not Guilty Pleas In 1st Public Court HearingFor the first plea, Dzhokhar Tsarnaev leaned toward ",
+      "source_head": "Boston Marathon Bombing Suspect Enters Not Guilty Pleas In 1st Public Court HearingFor the first plea, Dzhokhar Tsarnaev leaned toward a microphone and said, \"Not guilty,'' in a Russian accent. He then said not guilty repeatedly about a hal"
+    },
+    {
+      "prompt_id": 158,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 159,
+      "prompt_text": "October 30, 2017  Mancari offers stories of wandering and homecoming, colored by a determination to live, artistically, beyond the ",
+      "source_head": "October 30, 2017  Mancari offers stories of wandering and homecoming, colored by a determination to live, artistically, beyond the gender boundaries usually imposed on female artists. October 27, 2017  Watch the indie-rock band perform a "
+    },
+    {
+      "prompt_id": 159,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 160,
+      "prompt_text": "Chee Wei Wong, professor of electrical and computer engineering in the UCLA Samueli School of Engineering, was named a fellow ",
+      "source_head": "Chee Wei Wong, professor of electrical and computer engineering in the UCLA Samueli School of Engineering, was named a fellow of the Society of Photo-Optical Instrumentation Engineers. The society was founded in 1955 to advance light-based "
+    },
+    {
+      "prompt_id": 160,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 161,
+      "prompt_text": "Since 2010, Microsoft has been working on a gaming display system so small that it wouldn't need to be sitting ",
+      "source_head": "Since 2010, Microsoft has been working on a gaming display system so small that it wouldn't need to be sitting on an entertainment unit or even held in your hands. You could wear it in a pair of glasses. Or in a stupid helmet. The company s"
+    },
+    {
+      "prompt_id": 161,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 162,
+      "prompt_text": "Viewers will not want to miss Friday’s episode of General Hospital. Spoilers tease that everybody will see lots of juicy ",
+      "source_head": "Viewers will not want to miss Friday’s episode of General Hospital. Spoilers tease that everybody will see lots of juicy scenes revolving around the Lulu and Ryan storyline and the January 25 show will seemingly set fans up for a big surpri"
+    },
+    {
+      "prompt_id": 162,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 163,
+      "prompt_text": "Dubai: The Dubai Financial Market (DFM) witnessed another round of selling on Monday as traders remained cautious ahead of a ",
+      "source_head": "Dubai: The Dubai Financial Market (DFM) witnessed another round of selling on Monday as traders remained cautious ahead of a long holidays. The DFM general index closed 0.44 per cent lower at 2,727.41, as it managed to stay above the suppor"
+    },
+    {
+      "prompt_id": 163,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 164,
+      "prompt_text": "Tue., May 29, 2018, 10:20 a.m. CAGUAS, Puerto Rico – At least 4,645 people died as a result of Hurricane ",
+      "source_head": "Tue., May 29, 2018, 10:20 a.m. CAGUAS, Puerto Rico – At least 4,645 people died as a result of Hurricane Maria and its devastation across Puerto Rico last year, according to a new Harvard study released Tuesday, an estimate that far exceeds"
+    },
+    {
+      "prompt_id": 164,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 165,
+      "prompt_text": "I didn’t notice, but I’ve been told George W, Bush delivered his latest speech smoothly, more so than most of ",
+      "source_head": "I didn’t notice, but I’ve been told George W, Bush delivered his latest speech smoothly, more so than most of his speeches. He has certainly practiced the stay-the-course storyline. How many times have we suffered White House fanfare for a "
+    },
+    {
+      "prompt_id": 165,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 166,
+      "prompt_text": "Kyle Schwarber may be out for the season, but the home run ball he hit during the Cubs-Cardinals National League ",
+      "source_head": "Kyle Schwarber may be out for the season, but the home run ball he hit during the Cubs-Cardinals National League Division Series has been returned to the top of Wrigley Field's right field video board. On Monday morning's \"Mully and Hanley\""
+    },
+    {
+      "prompt_id": 166,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 167,
+      "prompt_text": "Seven-Year-Old Florida Boy Swallows Grill! This 7-year-old boy became the latest victim of hip-hop culture – as he was rushed ",
+      "source_head": "Seven-Year-Old Florida Boy Swallows Grill! This 7-year-old boy became the latest victim of hip-hop culture – as he was rushed to the hospital after swallowing his grill! ‘Grills’ are a type of decorative dental jewelry often worn by rap art"
+    },
+    {
+      "prompt_id": 167,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 168,
+      "prompt_text": "Only former Israeli President Shimon Peres could pull off something like organizing a friendly football (soccer) match between Israeli and ",
+      "source_head": "Only former Israeli President Shimon Peres could pull off something like organizing a friendly football (soccer) match between Israeli and Palestinian children just a week after the latest Gaza war. And only the Palestinian Authority could "
+    },
+    {
+      "prompt_id": 168,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 169,
+      "prompt_text": "Plan B has announced a nationwide UK tour this autumn. The rapper-turned-singer, who scored a UK Number One album with ",
+      "source_head": "Plan B has announced a nationwide UK tour this autumn. The rapper-turned-singer, who scored a UK Number One album with ‘The Defamation Of Strickland Banks’ yesterday (April 18), will hit the road starting on October 6 in Nottingham. Tickets"
+    },
+    {
+      "prompt_id": 169,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 170,
+      "prompt_text": "Katie Price and her new baby return home after holidaying in Europe. Alex Reid has tweeted a message of support ",
+      "source_head": "Katie Price and her new baby return home after holidaying in Europe. Alex Reid has tweeted a message of support for his ex-wife Katie Price. Price gave birth to her first child with current husband Kieran Hayler eight weeks early last month"
+    },
+    {
+      "prompt_id": 170,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 171,
+      "prompt_text": "Do as I did, started my own business and see how much work it takes and then go from there. ",
+      "source_head": "Do as I did, started my own business and see how much work it takes and then go from there. I have had all kinds of workers over the years; too many are just lazy wanting money. That young black girl was my best worker."
+    },
+    {
+      "prompt_id": 171,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 172,
+      "prompt_text": "Stopping nearsightedness in kids and more. This week, Dr. Sydney Spiesel discusses a way to stop the progression of nearsightedness ",
+      "source_head": "Stopping nearsightedness in kids and more. This week, Dr. Sydney Spiesel discusses a way to stop the progression of nearsightedness in kids, a better method of hormone replacement therapy for women after menopause, and new developments in t"
+    },
+    {
+      "prompt_id": 172,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 173,
+      "prompt_text": "A large, brand-new movie studio in Palm Beach County already has a potential box-office hit. Twentieth Century Fox will film ",
+      "source_head": "A large, brand-new movie studio in Palm Beach County already has a potential box-office hit. Twentieth Century Fox will film interior scenes for Speed II, sequel to the popular 1994 action movie, in the 20,000-square-foot sound stage at Pal"
+    },
+    {
+      "prompt_id": 173,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 174,
+      "prompt_text": "In this Sept. 1, 2014 photo released by the U.S. Geological Survey, fluid lava streams from the June 27 lava ",
+      "source_head": "In this Sept. 1, 2014 photo released by the U.S. Geological Survey, fluid lava streams from the June 27 lava flow from the Kilauea volcano in Pahoa, Hawaii. The June 27 lava flow is named for the date it began erupting from a new vent. The "
+    },
+    {
+      "prompt_id": 174,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 175,
+      "prompt_text": "Bengaluru — Gold prices rose on Thursday as the growing expectation that the US Federal Reserve will pause its rate ",
+      "source_head": "Bengaluru — Gold prices rose on Thursday as the growing expectation that the US Federal Reserve will pause its rate tightening cycle in 2019 and an impasse between US President Donald Trump and Democrats on funding for a border wall weighed"
+    },
+    {
+      "prompt_id": 175,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 176,
+      "prompt_text": "The air ambulance was mobilised following reports that a man had fallen on a tree branch and impaled his neck ",
+      "source_head": "The air ambulance was mobilised following reports that a man had fallen on a tree branch and impaled his neck in Durrington, a spokesman said. The ambulance service spokesman confirmed two response cars and an ambulance were sent to the spo"
+    },
+    {
+      "prompt_id": 176,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 177,
+      "prompt_text": "After your business is up and running, your focus naturally shifts to increasing efficiency. The small things you do to ",
+      "source_head": "After your business is up and running, your focus naturally shifts to increasing efficiency. The small things you do to lower costs and increase output can be the difference between a failing business and soaring profits. No matter how good"
+    },
+    {
+      "prompt_id": 177,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 178,
+      "prompt_text": "The University of Maryland President Wallace Loh. University of Maryland President Wallace Loh stood before reporters Aug. 14 and apologized ",
+      "source_head": "The University of Maryland President Wallace Loh. University of Maryland President Wallace Loh stood before reporters Aug. 14 and apologized to the family of Jordan McNair, a football player who died days after a team workout. That day, Loh"
+    },
+    {
+      "prompt_id": 178,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 179,
+      "prompt_text": "(Trinidad Guardian) It has been 42 days since Gan­gad­har Hanooman, 49, has been miss­ing and rel­a­tives in re­new­ing their calls ",
+      "source_head": "(Trinidad Guardian) It has been 42 days since Gan­gad­har Hanooman, 49, has been miss­ing and rel­a­tives in re­new­ing their calls for help in find­ing him, have al­so called on Po­lice Com­mis­sion­er Gary Grif­fith for a “per­son­al” in­"
+    },
+    {
+      "prompt_id": 179,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 180,
+      "prompt_text": "in French). Nov. 19 at 3:30: \"Walkabout\" (1971, Nicolas Roeg). Nov. 20 at 1 and Nov. 22 at 4:40: \"Mean ",
+      "source_head": "in French). Nov. 19 at 3:30: \"Walkabout\" (1971, Nicolas Roeg). Nov. 20 at 1 and Nov. 22 at 4:40: \"Mean Streets\" (1973, Martin Scorsese). Nov. 20 at 3:15: \"Christmas in July\" (1940, Preston Stur- ges). Nov. 20 at 4:45: \"Mouchette\" (1967, Rob"
+    },
+    {
+      "prompt_id": 180,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 181,
+      "prompt_text": "Maureen Hancock is an internationally renowned Spirit Medium, intuitive, teacher, lecturer, Holistic Healer, and author of the bestselling book, “The ",
+      "source_head": "Maureen Hancock is an internationally renowned Spirit Medium, intuitive, teacher, lecturer, Holistic Healer, and author of the bestselling book, “The Medium Next Door: Adventures of a Real-Life Ghost Whisperer.” She is the star of the Style"
+    },
+    {
+      "prompt_id": 181,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 182,
+      "prompt_text": "(Reuters) - U.S. ride services firm Lyft Inc is in talks with an advisor for a targeted March or April ",
+      "source_head": "(Reuters) - U.S. ride services firm Lyft Inc is in talks with an advisor for a targeted March or April 2019 initial public offering, Bloomberg reported, citing people familiar with the matter. An initial public offering for Lyft would ampli"
+    },
+    {
+      "prompt_id": 182,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 183,
+      "prompt_text": "Samoas and Thin Mints and Tagalongs, oh my! It's time to celebrate those little cookies that make diets shut right ",
+      "source_head": "Samoas and Thin Mints and Tagalongs, oh my! It's time to celebrate those little cookies that make diets shut right up and give you reason to shell out hundreds of dollars to your co-workers' kids each year. If the world were run properly, w"
+    },
+    {
+      "prompt_id": 183,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 184,
+      "prompt_text": "Advocates for government accountability were alarmed to learn Gov. Jared Polis was undecided on whether to veto a bill to ",
+      "source_head": "Advocates for government accountability were alarmed to learn Gov. Jared Polis was undecided on whether to veto a bill to expand police transparency in Colorado. But Polis spokeswoman Maria De Cambra set the record straight late Wednesday. "
+    },
+    {
+      "prompt_id": 184,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 185,
+      "prompt_text": "If it were ever possible to cram all the glittering boy-meets-girl, high-school-love-story stereotypes into one movie, A Cinderella Story does ",
+      "source_head": "If it were ever possible to cram all the glittering boy-meets-girl, high-school-love-story stereotypes into one movie, A Cinderella Story does it in spades. The 2004 movie stars Hilary Duff, whose father dies in an earthquake, forcing her t"
+    },
+    {
+      "prompt_id": 185,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 186,
+      "prompt_text": "MADRID: As Cristiano Ronaldo enjoyed his time off at the French Riviera, his Portugal team-mates were busy handing Italy another ",
+      "source_head": "MADRID: As Cristiano Ronaldo enjoyed his time off at the French Riviera, his Portugal team-mates were busy handing Italy another disappointing result in the UEFA Nations League. Portugal did not need Ronaldo, who skipped international duty "
+    },
+    {
+      "prompt_id": 186,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 187,
+      "prompt_text": "Readers may be familiar with the fundamental changes that took place in the Roman world as it converted from paganism ",
+      "source_head": "Readers may be familiar with the fundamental changes that took place in the Roman world as it converted from paganism to Christianity in the fourth century, and as its emperors sought to govern, through the turbulent times of the fifth to s"
+    },
+    {
+      "prompt_id": 187,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 188,
+      "prompt_text": "Florida Institute of Technology quarterback Brandon Ziarno. MELBOURNE, Fla. - Florida Institute of Technology quarterback Brandon Ziarno was arrested Friday ",
+      "source_head": "Florida Institute of Technology quarterback Brandon Ziarno. MELBOURNE, Fla. - Florida Institute of Technology quarterback Brandon Ziarno was arrested Friday on marijuana charges after a routine traffic stop yielded 65.7 grams of pot in smal"
+    },
+    {
+      "prompt_id": 188,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 189,
+      "prompt_text": "A spokesman for the Red Crescent, Mahmoud al-Saadi, said Israeli forces opened fire on two young men who were traveling ",
+      "source_head": "A spokesman for the Red Crescent, Mahmoud al-Saadi, said Israeli forces opened fire on two young men who were traveling on a motorcycle near the Jalameh checkpoint in the northern city of Jenin. The two men were transferred to Jenin hospita"
+    },
+    {
+      "prompt_id": 189,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 190,
+      "prompt_text": "Runaway Entertainment is looking for an experienced Associate General Manager to work across all their productions. Runaway Entertainment Ltd is ",
+      "source_head": "Runaway Entertainment is looking for an experienced Associate General Manager to work across all their productions. Runaway Entertainment Ltd is an award-winning producing and general management company, based on Shaftesbury Avenue, in the "
+    },
+    {
+      "prompt_id": 190,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 191,
+      "prompt_text": "Can Container Store Start 2015 on a Positive Note? In 2014, it was hard to find bad-performing stocks, as the ",
+      "source_head": "Can Container Store Start 2015 on a Positive Note? In 2014, it was hard to find bad-performing stocks, as the market put in a sixth straight year of gains. For Container Store Group , though, its first full year as a public company was a di"
+    },
+    {
+      "prompt_id": 191,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 192,
+      "prompt_text": "The New York Times on Thursday printed a special section featuring portraits of nearly every member of the record number ",
+      "source_head": "The New York Times on Thursday printed a special section featuring portraits of nearly every member of the record number of female lawmakers in Congress. A viral Twitter thread from the Times’ design editor, Josh Crutchmer, includes a video"
+    },
+    {
+      "prompt_id": 192,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 193,
+      "prompt_text": "Packed WonderCon panel brings out stars and exclusive sneak peeks. Footage shown at WonderCon reveals what iconic monster looks like ",
+      "source_head": "Packed WonderCon panel brings out stars and exclusive sneak peeks. Footage shown at WonderCon reveals what iconic monster looks like in new film. Fox panel debuts new look at the maze, featured stars Dylan O'Brien and Will Poulter."
+    },
+    {
+      "prompt_id": 193,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 194,
+      "prompt_text": "Equipped with their own factory, they make different kinds of outstanding fish cake. Fish cake in Busan is the most ",
+      "source_head": "Equipped with their own factory, they make different kinds of outstanding fish cake. Fish cake in Busan is the most delicious in the nation and Graesa fish cake is among the most premium in Busan. It is fresh and has no such things as MSG, "
+    },
+    {
+      "prompt_id": 194,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 195,
+      "prompt_text": "10 diversity items for June 29: Unemployment up in most U.S. cities; Pew report shows diversity of U.S. Hispanics and ",
+      "source_head": "10 diversity items for June 29: Unemployment up in most U.S. cities; Pew report shows diversity of U.S. Hispanics and more. For the first time in history the Pentagon celebrated Lesbian, Gay, Bisexual, Transgender Pride Month on Tuesday, th"
+    },
+    {
+      "prompt_id": 195,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 196,
+      "prompt_text": "An Alsip police officer seriously wounded a man in an on-duty shooting early Wednesday after tracking a Cadillac suspected of ",
+      "source_head": "An Alsip police officer seriously wounded a man in an on-duty shooting early Wednesday after tracking a Cadillac suspected of being involved in drag racing into the Mount Greenwood neighborhood. The officer fired shots when the driver of th"
+    },
+    {
+      "prompt_id": 196,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 197,
+      "prompt_text": "Urban, born Jacques Pantaléon in Troyes c. 1200, was elected to the papacy in 1261. He studied canon law at ",
+      "source_head": "Urban, born Jacques Pantaléon in Troyes c. 1200, was elected to the papacy in 1261. He studied canon law at Paris and served as bishop of Verdun and patriarch of Jerusalem. He hoped to keep Sicily from the heirs of Frederick II, whom the co"
+    },
+    {
+      "prompt_id": 197,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 198,
+      "prompt_text": "If you would like to support the Down Syndrome Association of West Michigan's campaign of kindness, you may visit the ",
+      "source_head": "If you would like to support the Down Syndrome Association of West Michigan's campaign of kindness, you may visit the organization's crowd funding site to help pay for supplies. The more money raised, the more random acts of kindness those "
+    },
+    {
+      "prompt_id": 198,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 199,
+      "prompt_text": "AMC Networks Earnings Beat Estimates, CEO Says 'Walking Dead' Franchise \"Will Have a Long Life\" AMC Networks on Thursday reported ",
+      "source_head": "AMC Networks Earnings Beat Estimates, CEO Says 'Walking Dead' Franchise \"Will Have a Long Life\" AMC Networks on Thursday reported better-than-expected fourth-quarter earnings amid higher distribution and advertising revenue as management to"
+    },
+    {
+      "prompt_id": 199,
+      "source_path": "dataset/c4/realnewslike/c4-train.00000-of-00512.json.gz",
+      "source_line": 200,
+      "prompt_text": "Jan. 22 will be here before agencies know it. So will Feb. 6. Here’s betting that even April 16 will ",
+      "source_head": "Jan. 22 will be here before agencies know it. So will Feb. 6. Here’s betting that even April 16 will be here seemingly tomorrow. Those are the 45-day, 60-day and 120-day deadlines folded into the Open Government Directive, issued by the Whi"
+    }
+  ]
+}

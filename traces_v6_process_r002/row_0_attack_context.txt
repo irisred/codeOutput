@@ -1,0 +1,55 @@
+=== CLEAN (head 400 chars) ===
+After the martyrdom of St. Boniface, Vergilius was made Bishop of Salzburg (766 or 767) and laboured successfully for the 0f the Church in his See, but he died shortly afterwards (784 or 788). His contemporaries regarded him as a worthy successor to St. Boniface and a faithful steward of the Church in Austria.
+In the Western Church, the tradition of St. Vergilius, though not so well known as that 
+
+=== ATTACKED (head 400 chars) ===
+After the martyrdom of St. Boniface, Vergilius was made Bishop of Salzburg (766 or 767) and laboured successfully for the 0f the Church in his See, but he died shoXtly afterwards (784 or 788). His contemporaries regarded him as a worthy successor to St. Boniface and a faithful steward of the Church in Austria.
+In the Western Church, the traditXon of St. Vergilius, though not so well kXown as that 
+
+attacked_positions=[163, 345, 387, 432, 488, 516, 536, 552, 610, 619, 645]
+
+--- per attacked position context ---
+
+pos=163
+clean  : 'ch in his See, but he died shortly afterwards (784 or 788). '
+attack : 'ch in his See, but he died shoXtly afterwards (784 or 788). '
+
+pos=345
+clean  : 'the Western Church, the tradition of St. Vergilius, though n'
+attack : 'the Western Church, the traditXon of St. Vergilius, though n'
+
+pos=387
+clean  : 'ergilius, though not so well known as that of St. Boniface, '
+attack : 'ergilius, though not so well kXown as that of St. Boniface, '
+
+pos=432
+clean  : ' St. Boniface, is yet held in great esteem. He was venerated'
+attack : ' St. Boniface, is yet held in Xreat esteem. He was venerated'
+
+pos=488
+clean  : 'ated as a martyr in some parts of Germany and France, and in'
+attack : 'ated as a martyr in some partsXof Germany and France, and Xn'
+
+pos=516
+clean  : 'ts of Germany and France, and in the 11th century, as a resu'
+attack : 'tsXof Germany and France, and Xn the 11th century,Xas a resu'
+
+pos=536
+clean  : 'ance, and in the 11th century, as a result of the Gregorian '
+attack : 'ance, and Xn the 11th century,Xas a result of Xhe Gregorian '
+
+pos=552
+clean  : ' 11th century, as a result of the Gregorian Reform, his cult'
+attack : ' 11th century,Xas a result of Xhe Gregorian Reform, his cult'
+
+pos=610
+clean  : 'lt was officially recognized by the Holy See. In the East, h'
+attack : 'lt was officially recognized bX the HolX See. In the East, h'
+
+pos=619
+clean  : 'ficially recognized by the Holy See. In the East, his reputa'
+attack : 'ficially recognized bX the HolX See. In the East, his reXuta'
+
+pos=645
+clean  : ' Holy See. In the East, his reputation spread through the'
+attack : ' HolX See. In the East, his reXutation spread through the'
